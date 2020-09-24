@@ -336,22 +336,6 @@ for遍历标签 {% for type in type_list %}   {% endfor %}
 if判断标签 {% if name.type == type.type %}  {% endif %}
 
 
-
-（12）
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
 （14）urlconf与models配置
 
 在开始Django项目的时候，一种是先实现整个主页，具体细致化开发的时候，通过URLconf再去指定路径给新的app，另一种是开发之前，网站的大体结构已经规划好，创建好项目同时把需要的app也创建，最后也通过URLconf去耦合。
